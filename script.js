@@ -20,6 +20,12 @@ function wantMore() {
 
     document.getElementById("education").appendChild(header);
 
+    const para = document.createElement("p");
+    const info = document.createTextNode("By clicking on the site link below called 'Through The Ages' you will be directed to my blog page on medium. I hope you enjoy the read!");
+    para.appendChild(info);
+
+    document.getElementById("education").appendChild(para);
+
     const blogBio = document.createElement("a");
     const text = document.createTextNode("Through The Ages");
     blogBio.setAttribute("href", "https://jalenpeeler.medium.com/through-the-ages-7d48c89f60b2");

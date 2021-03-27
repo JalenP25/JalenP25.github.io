@@ -34,3 +34,7 @@ function wantMore() {
 
     //document.getElementById("education").appendChild(para);
 }
+
+function alertFunction() {
+    alert("You are being redirected! Thank You ! 🙏🏽");
+}

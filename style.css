@@ -1,5 +1,9 @@
 body {
-    background: white;
+    background: rgb(241, 241, 177);
+}
+
+h1 {
+    text-align: center;
 }
 
 .gemstones{
@@ -17,12 +21,16 @@ body {
 #gems {
     width: 40%;
     height: 10%;
-    border: 1px solid #ddd;
+    border: 2px solid grey;
     border-radius: 4px;
     padding: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#gems:hover {
+    box-shadow: 0 0 10px 5px rgb(78, 243, 78);
 }
 
 .photography{
@@ -34,7 +42,11 @@ body {
     display: block;
 }
 
-#photo, #click {
+#photo {
+    text-align: center;
+}
+
+#click {
     text-align: center;
 }
 
@@ -47,9 +59,9 @@ body {
 }
 
 #blueTree {
-    width: 40%;
-    height: 10%;
-    border: 1px solid #ddd;
+    width: 50%;
+    height: 30%;
+    border: 2px solid grey;
     border-radius: 4px;
     padding: 5px;
     display: block;
@@ -57,51 +69,34 @@ body {
     margin-right: auto;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgb(149, 212, 231);
-}
-
 #blueTree:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-.blueTreeContainer:hover .overlay {
-    opacity: 1;
-}
-
-.photoText {
-    color: black;
-    font-size: 22px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 5px rgba(0, 140, 186, 0.5);
 }
 
 .bio {
     border-radius: 65px;
     border-width: thick;
-    border-style: inset;
-    border-color: rgb(149, 212, 231);
+    border-style: outset;
+    border-color: purple;
     padding: 10px;
     display: block;
+}
+
+#history {
+    text-align: center;
 }
 
 #self {
     width: 40%;
     height: 10%;
-    border: 1px solid #ddd;
+    border: 2px solid grey;
     border-radius: 4px;
     padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#self:hover {
+    box-shadow: 0 0 10px 5px purple;
+}

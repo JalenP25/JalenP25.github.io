@@ -10,6 +10,9 @@ function mouseOut() {
 }
 
 function wantMore() {
+
+    alert("Click where it says 'Through The Ages' to be redirected to my personal blog on medium.");
+
     const bio = document.createElement("footer");
     bio.setAttribute("id", "education");
     document.body.appendChild(bio);
